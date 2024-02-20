@@ -1,0 +1,92 @@
+.doctor{
+    margin: 80px 120px 0 270px;
+}
+
+.doctor .details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctor .details .detail{
+    display: flex;
+    max-width: 1170px;
+    padding: 0 1.25rem;
+    flex-direction: column;
+}
+
+.doctor .details .detail img{
+    width: 210px;
+    height: 210px;
+}
+
+.doctor .details .detail .image{
+    display: flex;
+    gap: 12px;
+}
+
+.doctor .details .detail .image .special{
+    margin-top: 50px;
+}
+
+.doctor .details .detail .image .specialization{
+    background: #ccf0f3;
+    color: #03b4c8;
+    border-radius: 0.25rem; 
+    font-weight: 600;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+}
+
+.doctor .details .detail .image .special h3{
+    margin-top: 10px;
+}
+
+.doctor .details .detail .image .special .rating{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.doctor .details .detail .image .special .rating .star{
+    margin-left: 12px;
+}
+
+.doctor .details .detail .image .special .rating .star img{
+    height: 15px;
+    width: 15px;
+}
+
+
+.doctor .details .detail .image .special p{
+    max-width: 270px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.doctor .details .detail .about{
+    border-bottom: 3px solid #0066ff34;
+}
+
+.doctor .details .detail .about button{
+    background-color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 550;
+    color: black;
+}
+
+.doctor .details .detail .about button:hover{
+    cursor: pointer;
+    color: #0067ff;
+}
+
+.doctor .details .detail .about button:visited{
+    color: #0067ff;
+}
+
+.doctor .details .sidepanel{
+    margin-right: 180px;
+}

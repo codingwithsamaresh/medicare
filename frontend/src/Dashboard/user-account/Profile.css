@@ -1,0 +1,81 @@
+
+
+form{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 1.25rem;
+    border-radius: 0.375rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.form h3{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+ form .signin .email{
+    width: 300px;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-bottom: solid 2px black;
+    cursor: pointer;
+}
+
+form .signin .email:focus{
+    outline: none;
+    border-bottom: solid 3px #0066ff61;
+}
+
+form .option{
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 1.25rem;
+}
+
+form .option label{
+    line-height: 1.75rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+form .option label select{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.75rem;
+    padding: 0.75rem 0.25rem;
+    outline: none;
+    border: none;
+}
+
+form .option label select:focus{
+    outline: none;
+}
+
+
+form .submit button{
+    color: white;
+    background-color: #01b5c5;
+    padding: 0.75rem 2.7rem;
+    border: solid 1px #01b5c5;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+ form .submit button:hover{
+    background-color: #0067ff;
+    cursor: pointer;
+}
+
+form p{
+    margin-top: 12px;
+    text-align: center;
+}

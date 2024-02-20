@@ -1,0 +1,54 @@
+h3{
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #181a1e;
+}
+
+.x button{
+    padding: 0;
+}
+
+.rating{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.rate{
+    color: #feb60d;
+}
+
+.rates{
+    color: #9ca3af;
+}
+
+.comments{
+    margin-top: 30px;
+}
+
+.comments textarea{
+    border: solid 3px #0066ff34;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.button{
+    padding: 10px  20px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 650;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1ms;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: lightseagreen;
+    border: 2px solid lightseagreen;
+    cursor: pointer;
+}

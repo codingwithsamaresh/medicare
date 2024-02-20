@@ -1,0 +1,68 @@
+.About{
+    margin-top: 21px;
+    max-width: 570px;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 570;
+    
+}
+
+h3 span{
+    color: #01b5c5;
+}
+
+.About p{
+    font-size: 14px;
+}
+
+.education{
+    margin-top: 12px;
+}
+
+.education .list{
+    padding-top: 0.4rem;
+    margin-left: 12px;
+}
+
+.education .list .List{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+.education .list .List span{
+    color: #01b5c5;
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 660;
+}
+
+.experience{
+    margin-top: 12px;
+}
+
+.experience .ex{
+    display: flex;
+    gap: 30px;
+    padding-top: 0.5rem;
+    list-style-type: none;
+}
+
+.experience .ex .exp{
+    padding: 1rem;
+    border-radius: 12px;
+    background: #fff9ea;
+    text-decoration: none;
+}
+
+.experience .ex .exp span{
+    color: #feb60d;
+}
+
+.experience .ex .exp p{
+    color: #4e545f;
+}

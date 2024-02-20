@@ -1,0 +1,59 @@
+.feed{
+    margin-top: 21px;
+    max-width: 570px;
+    margin-left: 9px;
+}
+
+.feed .feedback{
+    margin-bottom: 50px;
+}
+
+.feed .feedback h4{
+    margin-bottom: 30px;
+}
+
+.feed .feedback .feeds{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.feed .feedback .feeds .feedbacks{
+    display: flex;
+    gap: 0.75rem;
+}
+
+
+
+.feed .feedback .feeds .feedbacks img{
+    width: 25px;
+    height: 25px;
+}
+
+.feed .feedback .feeds .feedbacks p{
+   font-size: 12px;
+}
+
+.feed .btn{
+    text-align: center;
+}
+
+.feed .btn button{
+    padding: 10px  20px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 650;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1ms;
+}
+
+.feed .btn button:hover{
+    color: #fff;
+    background-color: lightseagreen;
+    border: 2px solid lightseagreen;
+    cursor: pointer;
+}

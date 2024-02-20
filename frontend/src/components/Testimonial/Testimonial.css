@@ -1,0 +1,44 @@
+.test{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.swipe{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 0.75rem;
+   
+}
+
+.swipe .swper{
+    display: flex;
+    gap: 13px;
+    width: 500px;
+    align-items: center;
+}
+
+.swipe h4{
+    font-size: 1.125rem;
+    line-height: 30px;
+    font-weight: 600;
+    
+}
+
+.swipe .swper .swp{
+    margin-left: -160px;
+    margin-top: 35px;
+    color: gold;
+}
+.swipe p{
+    font-weight: 400;
+    line-height: 1.75rem;
+
+}
+
+.swp-1{
+    margin-left: -75px;
+    margin-top: 35px;
+    color: gold;
+}

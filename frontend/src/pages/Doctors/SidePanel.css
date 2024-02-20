@@ -1,0 +1,60 @@
+.panel{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 1.25rem;
+    border-radius: 0.375rem;
+    width: 300px;
+}
+
+.panel .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel .content p{
+    font-weight: 600;
+}
+
+.panel .content span{
+    font-weight: 700;
+}
+
+.panel .timing{
+    margin-top: 30px;
+}
+
+.panel .timing p{
+    font-weight: 600;
+}
+
+.panel .timing ul{
+    margin-top: 12px;
+}
+
+.panel .timing ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel .timing ul li p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.panel button{
+    color: white;
+    background-color: #01b5c5;
+    margin-top: 21px;
+    padding: 0.8rem;
+    border: solid 1px #01b5c5;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.panel button:hover{
+    background-color: #0067ff;
+    cursor: pointer;
+}

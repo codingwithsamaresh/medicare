@@ -1,0 +1,120 @@
+.container{
+    margin: 80px 120px 0 120px;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .grid{
+    display: flex;
+    
+    gap: 1.2rem;
+}
+
+.container .grid .padding{
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.container .grid .padding .account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .grid .padding .account img{
+    height: 66px;
+    width: 66px;
+    border: solid 2px #0067ff;
+    border-radius: 99999px;
+
+}
+
+.container .grid .padding .text{
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.container .grid .padding .text p{
+    margin-top: -4px;
+}
+
+.container .grid .padding .text p span{
+    font-weight: 660;
+    color: black;
+}
+
+.container .grid .padding .button{
+    margin-top: 50px;
+    display: flex;
+    background-color: white;
+    border: none;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container .grid .padding .button .btn-1{
+    color: white;
+    background-color: #0067ff;
+    margin-top: 21px;
+    padding: 0.75rem 2.7rem;
+    border: solid 1px #0067ff;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.container .grid .padding .button .btn-1:hover{
+    background-color: #181a1e;
+    cursor: pointer;
+}
+
+.container .grid .padding .button .btn-2{
+    color: white;
+    background-color: #0067ff;
+    margin-top: 21px;
+    padding: 0.75rem 2.7rem;
+    border: solid 1px #0067ff;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.container .grid .padding .button .btn-2:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
+.container .grid .profile .prof{
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.container .grid .profile .prof button{
+    padding: 0.5rem 2.5rem;
+    border: solid 1px #0067ff;
+}
+
+.settings{
+    color: white;
+    background-color: #0067ff;
+    
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: 550;
+    color: #0067ff;
+}

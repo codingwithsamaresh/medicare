@@ -1,0 +1,13 @@
+.L{
+    margin: 80px 120px 220px 120px;
+}
+.I{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.N{
+    text-align: center;
+}

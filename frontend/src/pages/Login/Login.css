@@ -1,0 +1,67 @@
+.Login{
+    display: flex;
+    justify-content: center;
+    margin: 120px;
+}
+
+.Login .sign{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 1.25rem;
+    border-radius: 0.375rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login .sign h3{
+    font-size: 21px;
+}
+
+.Login .sign form{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.Login .sign form .signin{
+    margin-bottom: 1.25rem;
+}
+
+.Login .sign form .signin .email{
+    width: 300px;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-bottom: solid 2px black;
+    cursor: pointer;
+}
+
+.Login .sign form .signin .email:focus{
+    outline: none;
+    border-bottom: solid 3px #0066ff61;
+
+}
+
+.Login .sign form .submit{
+    margin-top: 12px;
+}
+
+.Login .sign form .submit button{
+    color: white;
+    background-color: #01b5c5;
+    margin-top: 21px;
+    padding: 0.75rem 2.7rem;
+    border: solid 1px #01b5c5;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Login .sign form .submit button:hover{
+    background-color: #0067ff;
+    cursor: pointer;
+}
+
+.Login .sign form p{
+    margin-top: 12px;
+    text-align: center;
+}
